@@ -191,7 +191,7 @@
 		tabifier: true,
 
 		deniedTags: ['script', 'style'],
-		allowedTags: false, // or array
+		allowedTags: ['br'], // or array
 
 		paragraphizeBlocks: ['table', 'div', 'pre', 'form', 'ul', 'ol', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'dl', 'blockquote', 'figcaption',
 							'address', 'section', 'header', 'footer', 'aside', 'article', 'object', 'style', 'script', 'iframe', 'select', 'input', 'textarea',
@@ -214,7 +214,7 @@
 		allowedAttr: false, // or multi array
 
 		removeWithoutAttr: ['span'], // or false
-		removeEmpty: ['p'], // or false;
+		removeEmpty: false, // or false;
 
 		activeButtons: ['deleted', 'italic', 'bold', 'underline', 'unorderedlist', 'orderedlist',
 						'alignleft', 'aligncenter', 'alignright', 'justify'],
